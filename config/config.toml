@@ -1,0 +1,7 @@
+bind_address = "0.0.0.0:41001"
+
+[web]
+bind_address = "0.0.0.0:10000" # Render uses port 10000 by default for web services
+
+[maintenance]
+enabled = false
