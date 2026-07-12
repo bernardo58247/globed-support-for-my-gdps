@@ -1,0 +1,21 @@
+[central]
+# Tells the server to listen on Render's required network port
+bind_address = "0.0.0.0:10000"
+
+# The name of your custom server that players will see
+server_name = "something GDPS"
+
+# Paste your exact GDPSFH database link here (DO NOT put a "/" at the end)
+gd_api_base_url = "https://somsomgdps.ps.fhgdps.com"
+
+# Leave this blank unless you are using a custom proxy
+gd_api_auth_token = ""
+
+[game]
+# The internal network address for the game server communications
+bind_address = "0.0.0.0:10001"
+public_address = "127.0.0.1:10001"
+
+[maintenance]
+# Set this to true only if you want to lock players out for updates
+enabled = false
